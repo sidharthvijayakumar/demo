@@ -1,5 +1,0 @@
-node{
-  stage('SCM Checout'){
-    echo 'hello' 
-   }
-}
