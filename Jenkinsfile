@@ -3,7 +3,7 @@ pipeline{
           stages{
                   stage("One"){
                         steps{
-                              echo"Hello world,this is sidharth"
+                              git 'https://github.com/sidharthvijayakumar/demo.git'
                          }
                   
                   }
